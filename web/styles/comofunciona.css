@@ -1,0 +1,69 @@
+@charset "utf-8";
+body {
+	margin: 20px;
+	color: #151120;
+	font-family: "Comic Sans MS", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #99FF99;
+}
+#top {
+    overflow: hidden;
+}
+/*Titulo de la app*/
+h1 {
+	color: #FF0000;
+	font-style: normal;
+	font-weight: 300;
+	font-family: "Comic Sans MS";
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+/*Contacta con nosotros*/
+p{
+	font-size: 15px;
+	margin-top: 0px;
+	text-align: right;
+	color: blue;
+	text-decoration: underline;
+}
+
+#main {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+/*Tamaño de la barra del menu*/
+#sidebar {
+	margin-top: 20px;
+	width: 34%;
+	margin-left: 4%;
+	float: left;
+}
+
+/*Margenes y esas cosas de la barra*/
+#mainnav ul {
+	margin-top: 30px;	margin-right: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+/*Propiedades del menu*/
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #4d4d4d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-decoration: none;
+}
+
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.clickComoFunciona:visited, #mainnav li.thispage {
+	background-color: green;
+	text-decoration: none;
+}
+
